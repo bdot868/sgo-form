@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SgoForm from './bs-components/Sgo';
+import SgoForm from './Sgo';
 
 const { render, useState } = wp.element;
 
