@@ -1,0 +1,185 @@
+body {
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+}
+
+/***************************************
+              Home Page
+****************************************/
+
+.homepage-content {
+  width: 23em;
+  margin: auto;
+}
+
+.cremation-package {
+    background-color: #fef9ef;
+    border: 2px solid #f2ca62;
+}
+
+.cremation-package-title {
+    font-family: 'Lora',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 1.1em;
+    background-color: #ecb41f;
+    padding-top: 20px!important;
+    padding-bottom: 30px!important;
+    text-align: center;
+    color: #fff;
+}
+
+.package-price {
+   font-size: 65px;
+   font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+   text-align: center;
+   margin-left: -20px;
+   letter-spacing: -.04em;
+   padding: 20px 0 0;
+   color: #65625c
+}
+
+.package-price span {
+  font-size: 50%;
+  vertical-align: top;
+}
+
+.package-features {
+  padding: 10px
+}
+
+.package-features p {
+  padding-left: 10px;
+  font-weight: 600;
+  margin-bottom: .5em
+}
+
+.primary-btn {
+    color: #ffffff!important;
+    border-width: 0px!important;
+    font-weight: 600!important;
+    background-color: #c4982f;
+    margin: 20px 0;
+    width: 10em;
+    padding: 5px 0;
+    border-radius: 3px;
+}
+
+.product-modal {
+  cursor: pointer;
+  color: #103a71;
+  font-weight: 600;
+}
+
+/***************************************
+              Product Modals
+****************************************/
+.modal-header {
+  background: #103a71;
+  color: #fff;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.product-description {
+  margin-left: 30px;
+}
+/* .modal-footer {
+  background: #103a71;
+  color: #fff;
+} */
+
+/***************************************
+              Form Page
+****************************************/
+form {
+  margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Lora',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    color: #b78500!important;
+}
+
+h4 {
+    font-family: 'Lora',Georgia,"Times New Roman",serif;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: #b78500!important;
+}
+
+.form-header {
+  color: #b78500!important;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.cart-price {
+  float: right;
+  font-weight: 600;
+}
+
+/***************************************
+              Confirmation Page
+****************************************/
+.confirmation-container {
+  margin: 30px 0;
+  background: #fef9ef;
+  border: 3px solid #b78500;
+}
+
+.confirmation-container .products,
+.confirmation-container .cart,
+.confirmation-container .funeral-home {
+  padding: 10px;
+}
+
+.confirmation-container .products {
+  text-align: center;
+  border-left: 3px solid #b78500;
+  border-right: 3px solid #b78500;
+}
+
+.confirmation-container .products img {
+  width: 50%;
+}
+
+.confirmation-page button {
+  margin-right: 10px;
+}
+
+.col {
+  padding: 20px 0;
+}
+/***************************************
+              SGO App Styles
+****************************************/
+.notice-box {
+  border: 5px solid red;
+  padding: 15px 30px;
+  width: 100%;
+}
+.sgo_results {
+  background: #F3F3F3;
+  border: 1px solid #b7b7b7;
+}
+/***************************************
+              Mobile Styles
+****************************************/
+
+@media only screen and (max-width: 600px) {
+  .homepage-content {
+    width: 100%;
+    margin: auto;
+  }
+
+  .confirmation-container .products {
+    text-align: center;
+    border-left: none;
+    border-right: none;
+    border-top: 3px solid #b78500;
+    border-bottom: 3px solid #b78500
+  }
+}
